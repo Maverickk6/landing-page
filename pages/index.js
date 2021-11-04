@@ -5,34 +5,34 @@ export default function Home() {
   return (
     <div class=" w-full min-h-screen container mx-auto bg-orange-300 p-5 ">
       <nav class="flex items-center flex-row justify-between py-8 mb-10">
-        <div class="flex flex-row">
-          <div class="bg-gradient-to-r from-purple-600 to-red-600 w-10 h-10 rounded-full"></div>
+        <div class="flex flex-row items-center">
+          <div class="bg-black w-12 h-12 rounded-full"></div>
           <h1 class="text-3xl text-gray-600 ml-3">Logo</h1>
         </div>
         <ul class="flex items-center space-x-2">
           <li>
-            <a href="#" class="text-gray-600 hover:bg-gray-50 p-4">
+            <a href="#" class="text-gray-600 text-xl hover:bg-gray-50 p-4">
               Conference
             </a>
           </li>
           <li>
-            <a href="#" class="text-gray-600 hover:bg-gray-50 p-4">
+            <a href="#" class="text-gray-600 text-xl hover:bg-gray-50 p-4">
               Tickets
             </a>
           </li>
           <li>
-            <a href="#" class="text-gray-600 hover:bg-gray-50 p-4">
+            <a href="#" class="text-gray-600 text-xl hover:bg-gray-50 p-4">
               Contact
             </a>
           </li>
         </ul>
         <div>
-          <a href="#" class="text-gray-600 hover:bg-gray-50 p-4">
+          <a href="#" class="text-gray-600 hover:bg-gray-50 text-xl p-4">
             Login
           </a>
           <a
             href="#"
-            class="bg-gray-900 text-gray-50 hover:bg-gray-600 p-3 px-5 rounded-sm"
+            class="bg-gray-900 text-gray-50 hover:bg-gray-600 p-3 px-5 text-xl rounded-sm"
           >
             Register
           </a>
@@ -43,12 +43,12 @@ export default function Home() {
         <div class="w-2/5 flex flex-col justify-center p-4">
           <div class="flex flex-row items-center mb-6">
             <div class="bg-gray-900 h-1 w-14 mr-4"></div>
-            <h2 class="text-2xl text-gray-500"> Office Space</h2>
+            <h2 class="text-3xl text-gray-500"> Office Space</h2>
           </div>
-          <h2 class="font-serif text-5xl text-gray-600 mb-8">
-            The New Way to Discover
+          <h2 class="font-sans-serif font-bold text-7xl text-gray-600 mb-8">
+            The New <br/> Way to Discover
           </h2>
-          <p class="text-xl text-gray-600 tracking-wide mb-8">
+          <p class="text-2xl text-gray-600 tracking-wide mb-8">
             Booking Company-Wide Savings, Invoicing <br /> And Reporting Docs
           </p>
 
@@ -88,18 +88,30 @@ export default function Home() {
           <img src="/undraw_moving_re_pipp.svg" class="w-full" />
         </div>
       </main>
+
+    {/* <--footer --> */}
       <footer class="flex flex-row justify-between mx-auto items-center mt-60 p-16">
         <div class="flex flex-row w-3/5 items-center">
           <div class="bg-black w-16 h-16 rounded-full mr-5"></div>
           <div>
-            <p class="text-xl text-bold mt-2">Question ?</p>
-            <p class="text-xl font-bold ">Talk to Our Experts</p>
+            <p class="text-xl font-bold mt-2">Question ?</p>
+            <a href="#" class="text-xl font-bold ">Talk to Our Experts</a>
           </div>
         </div>
         <div>
-          <p class="text-xl font-bold tracking-wide">
-            Facebook / LinkedIn / Instagram
-          </p>
+          <ul class="flex flex-row text-xl font-bold">
+            <li class="mr-2">
+              <a href="#">Facebook</a>
+            </li>
+            /
+            <li class="mr-2 ml-2">
+              <a href="#">LinkedIn</a>
+            </li>
+            /
+            <li class="ml-2" >
+              <a href="#">Instagram</a>
+            </li>
+          </ul>
         </div>
       </footer>
     </div>

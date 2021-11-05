@@ -89,7 +89,7 @@ export default function Home() {
             <img src="/undraw_moving_re_pipp.svg" class="w-full" />
           </div>
         </div>
-        <div class="mx-auto text-6xl mt-20">
+        <div class="mx-auto text-6xl mt-40 mb-28">
           <p>Explore Events Around You </p>
         </div>
         <div>
@@ -111,8 +111,11 @@ export default function Home() {
                         The Catalyzer
                       </h1>
                       <p class="text-xl mb-3">
-                        Photo booth fam kinfolk cold-pressed sriracha leggings
-                        jianbing microdosing tousled waistcoat.
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit,
+                        sed do eiusmod tempor incididunt ut labore et dolore
+                        magna aliqua. Ut enim ad minim veniam, quis nostrud
+                        exercitation ullamco laboris nisi ut aliquip ex ea
+                        commodo consequat.
                       </p>
                       <div class="flex items-center flex-wrap ">
                         <a class="text-indigo-500 inline-flex items-center md:mb-2 lg:mb-0">
@@ -178,8 +181,11 @@ export default function Home() {
                         The 400 Blows
                       </h1>
                       <p class="text-xl mb-3">
-                        Photo booth fam kinfolk cold-pressed sriracha leggings
-                        jianbing microdosing tousled waistcoat.
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit,
+                        sed do eiusmod tempor incididunt ut labore et dolore
+                        magna aliqua. Ut enim ad minim veniam, quis nostrud
+                        exercitation ullamco laboris nisi ut aliquip ex ea
+                        commodo consequat.
                       </p>
                       <div class="flex items-center flex-wrap">
                         <a class="text-indigo-500 inline-flex items-center md:mb-2 lg:mb-0">
@@ -245,8 +251,11 @@ export default function Home() {
                         Shooting Stars
                       </h1>
                       <p class="text-xl mb-3">
-                        Photo booth fam kinfolk cold-pressed sriracha leggings
-                        jianbing microdosing tousled waistcoat.
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit,
+                        sed do eiusmod tempor incididunt ut labore et dolore
+                        magna aliqua. Ut enim ad minim veniam, quis nostrud
+                        exercitation ullamco laboris nisi ut aliquip ex ea
+                        commodo consequat.
                       </p>
                       <div class="flex items-center flex-wrap ">
                         <a class="text-indigo-500 inline-flex items-center md:mb-2 lg:mb-0">

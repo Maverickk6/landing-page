@@ -1,8 +1,8 @@
 import Head from "next/head";
 import { ApolloClient, InMemoryCache, gql } from "@apollo/client";
 
-export default function Home({ launches }) {
-  console.log("launches", launches);
+export default function Home({ events }) {
+  console.log("events", events);
   return (
     <div class=" w-full min-h-screen container mx-auto bg-orange-300 p-5 ">
       <nav class="flex items-center flex-row justify-between py-8 mb-10">
@@ -366,7 +366,7 @@ export async function getStaticProps() {
   console.log("data", data);
   return {
     props: {
-      launches: [],
+      events: [],
     },
   };
 }

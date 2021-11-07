@@ -366,7 +366,7 @@ export async function getStaticProps() {
   console.log("data", data);
   return {
     props: {
-      events: [],
+      events: data.data,
     },
   };
 }

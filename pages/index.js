@@ -11,7 +11,7 @@ export default function Home({ events }) {
       <nav class="flex items-center flex-row justify-between py-8 mb-10">
         <div class="flex flex-row items-center">
           <div class="bg-black w-12 h-12 rounded-full"></div>
-          <h1 class="text-3xl text-gray-600 ml-3 ">Logo</h1>
+          <h1 class="text-3xl text-gray-600 ml-3 ">PEDDLESOFT</h1>
         </div>
         <ul class="flex items-center space-x-2">
           <li>
@@ -106,8 +106,8 @@ export default function Home({ events }) {
                       <div class="h-100 border-2 border-gray-200 border-opacity-60 rounded-lg overflow-hidden">
                         <img
                           class="lg:h-48 md:h-36 w-full object-cover object-center"
-                          src={event.photoUrl}
-                          alt="blog"
+                          src="/events.png"
+                          alt={ event.name}
                         />
                         <div class="p-6">
                           <h2 class="tracking-widest text-md title-font font-medium text-gray-400 mb-1">

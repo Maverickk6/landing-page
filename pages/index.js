@@ -107,17 +107,17 @@ export default function Home({ events }) {
                         <img
                           class="lg:h-48 md:h-36 w-full object-cover object-center"
                           src="/events.png"
-                          alt={ event.name}
+                          alt={event.name}
                         />
                         <div class="p-6">
                           <h2 class="tracking-widest text-md title-font font-medium text-gray-400 mb-1">
-                            { event.theme }
+                            { event.theme === "" ? "No theme" : event.theme }
                           </h2>
-                          <h1 class="title-font text-2xl font-medium text-gray-900 mb-3">
+                          <h1 class="title-font text-2xl font-medium text-gray-900 mb-3 truncate">
                             {event.name}
                           </h1>
-                          <p class="text-xl mb-3 truncate">
-                            { event.description}
+                          <p class="text-xl mb-3 truncate md:overflow-clip">
+                            {event.description === "" ? "No description available" : event.description.replace(/(<([^>]+)>)/gi, "")}
                           </p>
                           <div class="flex items-center flex-wrap ">
                             <a class="text-indigo-500 inline-flex items-center md:mb-2 lg:mb-0">
@@ -219,7 +219,6 @@ export async function getStaticProps() {
         events {
           name
           venue
-          photoUrl
           theme
           startDate
           startTime
